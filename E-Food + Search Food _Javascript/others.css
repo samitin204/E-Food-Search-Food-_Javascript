@@ -1,0 +1,223 @@
+body {
+  position: relative;
+}
+
+.navbar{
+    background-color: #F5F5F5;
+}
+
+
+.footertitle{
+   text-align: center;
+   font-size: 1.6em;    
+    padding-top:60px;
+    padding-bottom: 100px;
+    
+}
+ 
+.container-fluid{  
+    padding-bottom: 20px;
+}
+
+
+
+.col-md-4{
+    text-align: center;    
+}
+
+
+
+.col-md-4 ul{
+    list-style: none;
+}
+
+
+.googleplay img{
+    display:inline-block;
+    width:150px;
+    height:40px;    
+}
+
+.googleplay{
+    margin-left:425px;
+}
+
+.caros{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.carousel-indicators li{
+  border-radius:50%;
+  width:8px;
+  height:8px;
+  
+}
+
+.upicon{
+    margin-left:60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.signup{
+    text-decoration: none;
+    margin-left: 330px;
+   
+}
+
+.modal{
+text-align: center;    
+}
+
+.modal-title{
+
+ letter-spacing: 10px;
+text-align: center;    
+}
+
+.modalinput{
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.login{
+    
+    margin-left: 20px;   
+}
+
+
+#loginmodal{
+  position: absolute;
+  top: 150px;
+  left: 00px;  
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+  height: auto;    
+}
+
+
+.checked {
+  color: white;
+}
+
+/*
+#container{
+	
+	background-color: chartreuse;
+}
+*/
+
+.card{
+	width: 275px;
+	margin: 5px;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+	background-size: cover;
+	
+}
+
+/*
+.cardfooter{
+    text-align: center;    
+}
+*/
+
+/*
+.cardfooter p{
+    margin-bottom: 3px;     
+}
+*/
+
+.card-body p{
+	
+  margin: 0em;
+
+}
+
+.card-title{
+/*
+   margin-top: 50px;
+   margin-bottom: 5px;    
+*/
+	margin: 0px;
+	padding: 2px;
+}
+
+.card-text{
+  font-size: 11px;
+  padding:2px;    
+}
+
+
+.jumbotron{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    
+}
+
+.card:hover{
+   transform: scale(0.9); 
+}
+
+.modal-content{
+
+    opacity: 0.6;
+}
+
+
+.card-container {
+/*
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+*/
+/*
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem 0;
+*/
+/*	background-color:darkkhaki;*/
+}
+/*
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem auto;
+  height: 15rem;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+}
+.card--avatar {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+.card--title {
+  color: #222;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+.card--link {
+  text-decoration: none;
+  background: #db4938;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}*/
